@@ -1,0 +1,34 @@
+src/*.exe
+src/KazukiCoin
+src/KazukiCoind
+src/test_KazukiCoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.KazukiCoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+KazukiCoin-qt
+KazukiCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+KazukiCoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
